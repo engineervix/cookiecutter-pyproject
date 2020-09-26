@@ -11,6 +11,7 @@ powerline-status
 pre-commit
 
 # test
-pytest-cov
 pytest-bandit
+pytest-cookies
+pytest-cov
 Faker
