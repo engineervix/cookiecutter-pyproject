@@ -22,4 +22,6 @@ exclude = '''
 )
 '''
 [tool.commitizen]
+version = "0.2.0"
 tag_format = "v$major.$minor.$patch"
+changelog_file = "CHANGELOG.md"
