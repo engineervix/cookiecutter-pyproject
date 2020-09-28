@@ -30,6 +30,9 @@
   <a href="http://commitizen.github.io/cz-cli/" target="_blank">
     <img alt="Commitizen friendly" src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg" />
   </a>
+  <a href="https://conventionalcommits.org" target="_blank">
+    <img alt="Conventional Commits" src="https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg?style=flat-square" />
+  </a>
   <a href="https://twitter.com/engineervix" target="_blank">
     <img alt="Twitter: engineervix" src="https://img.shields.io/twitter/follow/engineervix.svg?style=social" />
   </a>
