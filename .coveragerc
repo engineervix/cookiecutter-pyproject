@@ -1,5 +1,8 @@
 [run]
-omit = venv/*
+omit =
+    venv/*
+    # omit everything in {{cookiecutter.project_slug}}
+    {{cookiecutter.project_slug}}/*
 
 [report]
 skip_covered = True
