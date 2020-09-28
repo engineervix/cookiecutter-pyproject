@@ -1,0 +1,18 @@
+# core
+{%- if cookiecutter.command_line_interface|lower == 'click' %}
+click
+{%- endif %}
+
+# dev
+black
+bpython
+commitizen
+flake8
+pip-tools
+powerline-status
+pre-commit
+
+# test
+pytest-cov
+pytest-bandit
+Faker
