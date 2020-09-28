@@ -6,4 +6,8 @@ updates:
     interval: daily
     time: "03:00"
     timezone: Africa/Lusaka
-  open-pull-requests-limit: 10
+  labels:
+    - "cookiecutter"
+    - "dependencies"
+    - "python"
+  open-pull-requests-limit: 99
