@@ -52,10 +52,10 @@ def run_inside_dir(command, dirpath):
         return subprocess.check_call(shlex.split(command))  # nosec ([B404:blacklist])
 
 
-def check_output_inside_dir(command, dirpath):
-    "Run a command from inside a given directory, returning the command output"
-    with inside_dir(dirpath):
-        return subprocess.check_output(shlex.split(command))  # nosec ([B404:blacklist])
+# def check_output_inside_dir(command, dirpath):
+#     "Run a command from inside a given directory, returning the command output"
+#     with inside_dir(dirpath):
+#         return subprocess.check_output(shlex.split(command))  # nosec ([B404:blacklist])
 
 
 def test_year_compute_in_license_file(cookies):
@@ -83,6 +83,7 @@ def test_bake_with_defaults(cookies):
         found_toplevel_files = [f.basename for f in result.project.listdir()]
         assert "python_project" in found_toplevel_files  # nosec
         assert "tests" in found_toplevel_files  # nosec
+        assert ".vscode" in found_toplevel_files  # nosec
 
 
 def test_bake_and_run_tests(cookies):
