@@ -92,7 +92,7 @@ It goes without saying that you'll want to create a repo for your new project. I
 Simply run `pytest`. For more detailed output, including test coverage:
 
 ```sh
-pytest -vv --cov=. --cov-report term-missing
+pytest -vv --cov-config=.coveragerc --cov=. --cov-report term-missing
 ```
 
 ## Author
@@ -130,6 +130,7 @@ Inspired by:
 - [ ] Add [packaging](https://packaging.python.org/guides/distributing-packages-using-setuptools/) options
 - [ ] Include options for [coveralls](https://coveralls.io), [codeclimate](https://codeclimate.com/) and [deepsource](https://deepsource.io/) in Gitlab CI.
 - [ ] Working with [dependabot](https://dependabot.com/) on Gitlab
+- [ ] `Makefile` to automate some boring tasks and encapsulate long commands
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
