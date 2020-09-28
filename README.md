@@ -123,6 +123,13 @@ Inspired by:
 - [wemake-services/wemake-python-package](https://github.com/wemake-services/wemake-python-package)
 - [sourcery-ai/python-best-practices-cookiecutter](https://github.com/sourcery-ai/python-best-practices-cookiecutter)
 - [ionelmc/cookiecutter-pylibrary](https://github.com/ionelmc/cookiecutter-pylibrary)
+- [cjolowicz/cookiecutter-hypermodern-python](https://github.com/cjolowicz/cookiecutter-hypermodern-python)
+
+## FAQs
+
+- Why create another python **Cookiecutter** when there's already so many excellent ones (like the ones above)?
+
+> I agree that there are several excellent python project cookiecutters out there. In fact, I wouldn't have written this version without the others (especially the ones in the Credits section above)! I am already used to a particular workflow, and I wanted a Cookiecutter that mirrors my workflow. None of the existing Cookiecutters were an exact fit, so I decided to write my own!
 
 ## TODO
 
