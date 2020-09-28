@@ -9,6 +9,9 @@
   <a href="https://coveralls.io/github/engineervix/cookiecutter-pyproject?branch=master" target="_blank">
     <img alt="Coverage Status" src="https://coveralls.io/repos/github/engineervix/cookiecutter-pyproject/badge.svg?branch=master" />
   </a>
+  <a href="https://github.com/pre-commit/pre-commit" target="_blank">
+    <img alt="pre-commit" src="https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white" />
+  </a>
   <a href="https://github.com/engineervix/cookiecutter-pyproject/graphs/commit-activity" target="_blank">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
