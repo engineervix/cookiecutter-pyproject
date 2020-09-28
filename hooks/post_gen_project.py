@@ -16,10 +16,10 @@ def remove_directory(dir_path):
 if __name__ == "__main__":
 
     # rename this directory so that it isn't included in version control
-    vscode = os.path.join(PROJECT_DIRECTORY, "#vscode/")
+    vscode = os.path.join(PROJECT_DIRECTORY, "#vscode")
 
     # the renamed version is in the .gitignore file
-    shutil.move(vscode, os.path.join(PROJECT_DIRECTORY, ".vscode/"))
+    shutil.move(vscode, os.path.join(PROJECT_DIRECTORY, ".vscode"))
 
     if "no" in "{{ cookiecutter.command_line_interface|lower }}":
         cli_file = os.path.join("{{ cookiecutter.project_slug }}", "cli.py")
@@ -30,8 +30,10 @@ if __name__ == "__main__":
 
     if "Gitlab CI" == "{{ cookiecutter.continuous_integration }}":
         remove_directory(".circleci")
+        remove_directory("#github")
         remove_file(".deepsource.toml")
-        remove_file(".coveragerc")
 
     if "CircleCI" == "{{ cookiecutter.continuous_integration }}":
         remove_file(".gitlab-ci.yml")
+        github_dir = os.path.join(PROJECT_DIRECTORY, "#github")
+        shutil.move(github_dir, os.path.join(PROJECT_DIRECTORY, ".github"))

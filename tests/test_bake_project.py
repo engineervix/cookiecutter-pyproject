@@ -244,3 +244,5 @@ def test_bake_gitlab_ci(cookies):
         project_path, project_slug, project_dir = project_info(result)
         found_project_files = os.listdir(project_path)
         assert ".circleci" not in found_project_files  # nosec
+        assert "#github" not in found_project_files  # nosec
+        assert ".deepsource.toml" not in found_project_files  # nosec
