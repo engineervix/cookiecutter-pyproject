@@ -3,6 +3,12 @@
   <a href="https://python3statement.org/#sections50-why" target="_blank">
     <img alt="python3" src="https://img.shields.io/badge/python-3.6%20%7C%203.7%20%7C%203.8-brightgreen.svg" />
   </a>
+  <a href="https://circleci.com/gh/engineervix/cookiecutter-pyproject/tree/master" target="_blank">
+    <img alt="CircleCI" src="https://circleci.com/gh/engineervix/cookiecutter-pyproject/tree/master.svg?style=svg" />
+  </a>
+  <a href="https://coveralls.io/github/engineervix/cookiecutter-pyproject?branch=master" target="_blank">
+    <img alt="Coverage Status" src="https://coveralls.io/repos/github/engineervix/cookiecutter-pyproject/badge.svg?branch=master" />
+  </a>
   <a href="https://github.com/engineervix/cookiecutter-pyproject/graphs/commit-activity" target="_blank">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
@@ -27,8 +33,6 @@
 </p>
 
 > A simple Cookiecutter template to quickly bootstrap a new python project
-
-### 🏠 [Homepage](https://github.com/engineervix/cookiecutter-pyproject#readme)
 
 ## Features
 
@@ -101,7 +105,7 @@ Contributions, issues and feature requests are welcome!<br />Feel free to check 
 
 ## Show your support
 
-Give a ⭐️:star: if this project helped you!
+Give a ⭐️if this project helped you!
 
 ## 📝 License
 
@@ -125,4 +129,4 @@ Inspired by:
 - [ ] Working with [dependabot](https://dependabot.com/) on Gitlab
 
 ***
-_This README was generated with ❤️:heart: by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
