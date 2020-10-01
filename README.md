@@ -30,13 +30,13 @@
     <img alt="dependabot" src="https://badgen.net/dependabot/engineervix/cookiecutter-pyproject/?icon=dependabot" />
   </a> -->
   <a href="https://github.com/PyCQA/bandit" target="_blank">
-    <img alt="security: bandit" src="https://img.shields.io/badge/security-bandit-green.svg" />
+    <img alt="security: bandit" src="https://img.shields.io/badge/security-bandit-informational.svg" />
   </a>
   <a href="http://commitizen.github.io/cz-cli/" target="_blank">
     <img alt="Commitizen friendly" src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg" />
   </a>
   <a href="https://conventionalcommits.org" target="_blank">
-    <img alt="Conventional Commits" src="https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg?style=flat-square" />
+    <img alt="Conventional Commits" src="https://img.shields.io/badge/Conventional%20Commits-1.0.0-informational.svg" />
   </a>
   <a href="https://twitter.com/engineervix" target="_blank">
     <img alt="Twitter: engineervix" src="https://img.shields.io/twitter/follow/engineervix.svg?style=social" />
