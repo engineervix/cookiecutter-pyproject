@@ -15,17 +15,22 @@
   <a href="https://github.com/engineervix/cookiecutter-pyproject/graphs/commit-activity" target="_blank">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
+  <a href="https://sonarcloud.io/dashboard?id=engineervix_cookiecutter-pyproject" target="_blank">
+    <img alt="Maintainability Rating" src="https://sonarcloud.io/api/project_badges/measure?project=engineervix_cookiecutter-pyproject&metric=sqale_rating" />
+  </a>
   <a href="https://github.com/engineervix/cookiecutter-pyproject/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/github/license/engineervix/cookiecutter-pyproject" />
   </a>
+</p>
+<p>
   <a href="https://requires.io/github/engineervix/cookiecutter-pyproject/requirements/?branch=master" target="_blank">
     <img alt="Requirements Status" src="https://requires.io/github/engineervix/cookiecutter-pyproject/requirements.svg?branch=master" />
   </a>
-  <a href="https://dependabot.com/" target="_blank">
+  <!-- <a href="https://dependabot.com/" target="_blank">
     <img alt="dependabot" src="https://badgen.net/dependabot/engineervix/cookiecutter-pyproject/?icon=dependabot" />
-  </a>
+  </a> -->
   <a href="https://github.com/PyCQA/bandit" target="_blank">
-    <img alt="security: bandit" src="https://img.shields.io/badge/security-bandit-yellow.svg" />
+    <img alt="security: bandit" src="https://img.shields.io/badge/security-bandit-green.svg" />
   </a>
   <a href="http://commitizen.github.io/cz-cli/" target="_blank">
     <img alt="Commitizen friendly" src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg" />
