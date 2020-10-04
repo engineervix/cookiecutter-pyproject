@@ -20,7 +20,7 @@ coverage==5.3             # via pytest-cov
 curtsies==0.3.4           # via bpython
 decli==0.5.2              # via commitizen
 distlib==0.3.1            # via virtualenv
-faker==4.1.6              # via -r {{cookiecutter.project_slug}}/requirements.in
+faker==4.4.0              # via -r {{cookiecutter.project_slug}}/requirements.in
 filelock==3.0.12          # via virtualenv
 flake8==3.8.3             # via -r {{cookiecutter.project_slug}}/requirements.in
 gitdb==4.0.5              # via gitpython
