@@ -17,7 +17,7 @@ cfgv==3.2.0               # via pre-commit
 chardet==3.0.4            # via binaryornot, requests
 click==7.1.2              # via black, cookiecutter, pip-tools
 colorama==0.4.3           # via commitizen
-commitizen==2.4.1         # via -r requirements.in
+commitizen==2.4.2         # via -r requirements.in
 cookiecutter==1.7.2       # via -r requirements.in, pytest-cookies
 coverage==5.3             # via pytest-cov
 curtsies==0.3.4           # via bpython
