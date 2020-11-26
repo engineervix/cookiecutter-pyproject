@@ -41,7 +41,7 @@ pbr==5.5.0                # via stevedore
 pip-tools==5.3.1          # via -r {{cookiecutter.project_slug}}/requirements.in
 pluggy==0.13.1            # via pytest
 powerline-status==2.7     # via -r {{cookiecutter.project_slug}}/requirements.in
-pre-commit==2.8.2         # via -r {{cookiecutter.project_slug}}/requirements.in
+pre-commit==2.9.1         # via -r {{cookiecutter.project_slug}}/requirements.in
 prompt-toolkit==3.0.7     # via questionary
 py==1.9.0                 # via pytest
 pycodestyle==2.6.0        # via flake8
