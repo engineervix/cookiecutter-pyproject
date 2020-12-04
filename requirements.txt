@@ -5,6 +5,7 @@
 #    pip-compile requirements.in
 #
 appdirs==1.4.4            # via black, virtualenv
+argcomplete==1.12.2       # via commitizen
 arrow==0.13.2             # via jinja2-time, pytest-cookies
 attrs==20.2.0             # via pytest
 bandit==1.6.2             # via pytest-bandit
@@ -17,7 +18,7 @@ cfgv==3.2.0               # via pre-commit
 chardet==3.0.4            # via binaryornot, requests
 click==7.1.2              # via black, cookiecutter, pip-tools
 colorama==0.4.4           # via commitizen
-commitizen==2.8.2         # via -r requirements.in
+commitizen==2.10.0        # via -r requirements.in
 cookiecutter==1.7.2       # via -r requirements.in, pytest-cookies
 coverage==5.3             # via pytest-cov
 curtsies==0.3.4           # via bpython
