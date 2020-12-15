@@ -43,7 +43,7 @@ pluggy==0.13.1            # via pytest
 powerline-status==2.7     # via -r {{cookiecutter.project_slug}}/requirements.in
 pre-commit==2.9.2         # via -r {{cookiecutter.project_slug}}/requirements.in
 prompt-toolkit==3.0.8     # via questionary
-py==1.9.0                 # via pytest
+py==1.10.0                 # via pytest
 pycodestyle==2.6.0        # via flake8
 pyflakes==2.2.0           # via flake8
 pygments==2.7.2           # via bpython
