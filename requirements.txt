@@ -5,6 +5,7 @@
 #    pip-compile requirements.in
 #
 appdirs==1.4.4            # via black, virtualenv
+argcomplete==1.12.2       # via commitizen
 arrow==0.13.2             # via jinja2-time, pytest-cookies
 attrs==20.2.0             # via pytest
 bandit==1.6.2             # via pytest-bandit
@@ -17,13 +18,13 @@ cfgv==3.2.0               # via pre-commit
 chardet==3.0.4            # via binaryornot, requests
 click==7.1.2              # via black, cookiecutter, pip-tools
 colorama==0.4.4           # via commitizen
-commitizen==2.8.2         # via -r requirements.in
+commitizen==2.10.0        # via -r requirements.in
 cookiecutter==1.7.2       # via -r requirements.in, pytest-cookies
 coverage==5.3             # via pytest-cov
 curtsies==0.3.4           # via bpython
 decli==0.5.2              # via commitizen
 distlib==0.3.1            # via virtualenv
-faker==4.18.0             # via -r requirements.in
+faker==5.0.1              # via -r requirements.in
 filelock==3.0.12          # via virtualenv
 flake8==3.8.4             # via -r requirements.in
 gitdb==4.0.5              # via gitpython
@@ -62,7 +63,7 @@ pyyaml==5.3.1             # via bandit, commitizen, pre-commit
 questionary==1.8.1        # via commitizen
 regex==2020.11.13         # via black
 requests==2.25.0          # via bpython, cookiecutter
-six==1.15.0               # via bandit, blessings, bpython, cookiecutter, packaging, pip-tools, python-dateutil, virtualenv
+six==1.15.0               # via bandit, blessings, bpython, cookiecutter, pip-tools, python-dateutil, virtualenv
 smmap==3.0.4              # via gitdb
 stevedore==3.3.0          # via bandit
 termcolor==1.1.0          # via commitizen
@@ -71,9 +72,9 @@ toml==0.10.2              # via black, pre-commit
 tomlkit==0.5.11           # via commitizen
 typed-ast==1.4.1          # via black
 typing-extensions==3.7.4.3  # via black
-urllib3==1.26.2             # via requests
-virtualenv==20.2.1          # via pre-commit
-wcwidth==0.2.5              # via bpython, curtsies, prompt-toolkit, pytest
+urllib3==1.26.2           # via requests
+virtualenv==20.2.1        # via pre-commit
+wcwidth==0.2.5            # via bpython, curtsies, prompt-toolkit, pytest
 
 # The following packages are considered to be unsafe in a requirements file:
 # pip
