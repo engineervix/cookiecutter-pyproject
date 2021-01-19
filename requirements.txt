@@ -55,7 +55,7 @@ pygments==2.7.2           # via bpython
 pyparsing==2.4.7          # via packaging
 pytest-bandit==0.5.2      # via -r requirements.in
 pytest-cookies==0.5.1     # via -r requirements.in
-pytest-cov==2.10.1        # via -r requirements.in
+pytest-cov==2.11.0        # via -r requirements.in
 pytest==5.4.3             # via pytest-bandit, pytest-cookies, pytest-cov
 python-dateutil==2.8.1    # via arrow, faker
 python-slugify==4.0.1     # via cookiecutter
