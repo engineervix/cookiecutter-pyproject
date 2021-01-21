@@ -59,7 +59,7 @@ pytest-cov==2.10.1        # via -r requirements.in
 pytest==5.4.3             # via pytest-bandit, pytest-cookies, pytest-cov
 python-dateutil==2.8.1    # via arrow, faker
 python-slugify==4.0.1     # via cookiecutter
-pyyaml==5.3.1             # via bandit, commitizen, pre-commit
+pyyaml==5.4             # via bandit, commitizen, pre-commit
 questionary==1.8.1        # via commitizen
 regex==2020.11.13         # via black
 requests==2.25.0          # via bpython, cookiecutter
