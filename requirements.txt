@@ -102,7 +102,7 @@ pathspec==0.8.1
     # via black
 pbr==5.5.1
     # via stevedore
-pip-tools==5.5.0
+pip-tools==6.0.0
     # via -r requirements.in
 pluggy==0.13.1
     # via pytest
