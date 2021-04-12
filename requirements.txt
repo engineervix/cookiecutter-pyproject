@@ -41,7 +41,7 @@ click==7.1.2
     #   pip-tools
 colorama==0.4.4
     # via commitizen
-commitizen==2.14.2
+commitizen==2.17.2
     # via -r requirements.in
 cookiecutter==1.7.2
     # via
