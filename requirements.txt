@@ -63,7 +63,7 @@ faker==6.3.0
     # via -r requirements.in
 filelock==3.0.12
     # via virtualenv
-flake8==3.8.4
+flake8==3.9.2
     # via -r requirements.in
 gitdb==4.0.5
     # via gitpython
@@ -116,9 +116,9 @@ prompt-toolkit==3.0.16
     # via questionary
 py==1.10.0
     # via pytest
-pycodestyle==2.6.0
+pycodestyle==2.7.0
     # via flake8
-pyflakes==2.2.0
+pyflakes==2.3.1
     # via flake8
 pygments==2.8.0
     # via bpython
