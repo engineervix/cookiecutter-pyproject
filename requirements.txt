@@ -124,7 +124,7 @@ pygments==2.8.0
     # via bpython
 pyparsing==2.4.7
     # via packaging
-pytest-bandit==0.5.2
+pytest-bandit==0.6.1
     # via -r requirements.in
 pytest-cookies==0.5.1
     # via -r requirements.in
