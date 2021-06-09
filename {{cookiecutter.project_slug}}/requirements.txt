@@ -104,7 +104,7 @@ pygments==2.8.0
     # via bpython
 pyparsing==2.4.7
     # via packaging
-pytest-bandit==0.5.2
+pytest-bandit==0.6.1
     # via -r {{cookiecutter.project_slug}}/requirements.in
 pytest-cov==2.11.1
     # via -r {{cookiecutter.project_slug}}/requirements.in
