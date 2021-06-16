@@ -20,7 +20,7 @@ bandit==1.7.0
     # via pytest-bandit
 binaryornot==0.4.4
     # via cookiecutter
-black==21.5b1
+black==21.6b0
     # via -r requirements.in
 blessings==1.7
     # via curtsies
