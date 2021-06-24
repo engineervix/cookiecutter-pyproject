@@ -46,7 +46,7 @@ decli==0.5.2
     # via commitizen
 distlib==0.3.1
     # via virtualenv
-faker==8.6.0
+faker==8.8.2
     # via -r {{cookiecutter.project_slug}}/requirements.in
 filelock==3.0.12
     # via virtualenv
@@ -104,14 +104,14 @@ pygments==2.8.0
     # via bpython
 pyparsing==2.4.7
     # via packaging
-pytest-bandit==0.6.1
-    # via -r {{cookiecutter.project_slug}}/requirements.in
-pytest-cov==2.11.1
-    # via -r {{cookiecutter.project_slug}}/requirements.in
 pytest==6.2.2
     # via
     #   pytest-bandit
     #   pytest-cov
+pytest-bandit==0.6.1
+    # via -r {{cookiecutter.project_slug}}/requirements.in
+pytest-cov==2.11.1
+    # via -r {{cookiecutter.project_slug}}/requirements.in
 python-dateutil==2.8.1
     # via faker
 pyxdg==0.27
