@@ -11,9 +11,7 @@ appdirs==1.4.4
 argcomplete==1.12.2
     # via commitizen
 arrow==0.13.2
-    # via
-    #   jinja2-time
-    #   pytest-cookies
+    # via jinja2-time
 attrs==20.3.0
     # via pytest
 bandit==1.7.0
@@ -133,7 +131,7 @@ pytest==5.4.3
     #   pytest-cov
 pytest-bandit==0.6.1
     # via -r requirements.in
-pytest-cookies==0.5.1
+pytest-cookies==0.6.1
     # via -r requirements.in
 pytest-cov==2.11.1
     # via -r requirements.in
