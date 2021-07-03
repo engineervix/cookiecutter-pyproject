@@ -84,7 +84,7 @@ pbr==5.5.1
     # via stevedore
 pep517==0.10.0
     # via pip-tools
-pip-tools==6.1.0
+pip-tools==6.2.0
     # via -r {{cookiecutter.project_slug}}/requirements.in
 pluggy==0.13.1
     # via pytest
@@ -155,6 +155,9 @@ virtualenv==20.4.2
     # via pre-commit
 wcwidth==0.2.5
     # via prompt-toolkit
+wheel==0.36.2
+    # via pip-tools
 
 # The following packages are considered to be unsafe in a requirements file:
 # pip
+# setuptools
