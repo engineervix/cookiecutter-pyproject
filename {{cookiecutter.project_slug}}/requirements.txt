@@ -90,7 +90,7 @@ pluggy==0.13.1
     # via pytest
 powerline-status==2.7
     # via -r {{cookiecutter.project_slug}}/requirements.in
-pre-commit==2.12.1
+pre-commit==2.13.0
     # via -r {{cookiecutter.project_slug}}/requirements.in
 prompt-toolkit==3.0.16
     # via questionary
