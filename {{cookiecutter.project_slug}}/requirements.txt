@@ -32,7 +32,7 @@ click==7.1.2
     #   pip-tools
 colorama==0.4.4
     # via commitizen
-commitizen==2.17.6
+commitizen==2.17.11
     # via -r {{cookiecutter.project_slug}}/requirements.in
 coverage==5.4
     # via pytest-cov
@@ -84,13 +84,13 @@ pbr==5.5.1
     # via stevedore
 pep517==0.10.0
     # via pip-tools
-pip-tools==6.1.0
+pip-tools==6.2.0
     # via -r {{cookiecutter.project_slug}}/requirements.in
 pluggy==0.13.1
     # via pytest
 powerline-status==2.7
     # via -r {{cookiecutter.project_slug}}/requirements.in
-pre-commit==2.12.1
+pre-commit==2.13.0
     # via -r {{cookiecutter.project_slug}}/requirements.in
 prompt-toolkit==3.0.16
     # via questionary
@@ -110,7 +110,7 @@ pytest==6.2.2
     #   pytest-cov
 pytest-bandit==0.6.1
     # via -r {{cookiecutter.project_slug}}/requirements.in
-pytest-cov==2.11.1
+pytest-cov==2.12.1
     # via -r {{cookiecutter.project_slug}}/requirements.in
 python-dateutil==2.8.1
     # via faker
@@ -149,7 +149,7 @@ toml==0.10.2
     #   pytest
 tomlkit==0.7.0
     # via commitizen
-urllib3==1.26.4
+urllib3==1.26.5
     # via requests
 virtualenv==20.4.2
     # via pre-commit
