@@ -8,4 +8,5 @@ updates:
     timezone: Africa/Lusaka
   labels:
     - "dependencies"
+    - "python"
   open-pull-requests-limit: 99
