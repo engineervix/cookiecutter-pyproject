@@ -57,7 +57,7 @@ decli==0.5.2
     # via commitizen
 distlib==0.3.1
     # via virtualenv
-faker==8.9.1
+faker==8.10.0
     # via -r requirements.in
 filelock==3.0.12
     # via virtualenv
