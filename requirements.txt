@@ -63,7 +63,7 @@ filelock==3.0.12
     # via virtualenv
 flake8==3.9.2
     # via -r requirements.in
-gitdb==4.0.5
+gitdb==4.0.7
     # via gitpython
 gitpython==3.1.13
     # via bandit
