@@ -110,7 +110,7 @@ poyo==0.5.0
     # via cookiecutter
 pre-commit==2.13.0
     # via -r requirements.in
-prompt-toolkit==3.0.16
+prompt-toolkit==3.0.19
     # via questionary
 py==1.10.0
     # via pytest
