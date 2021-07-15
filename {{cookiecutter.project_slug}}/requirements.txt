@@ -150,7 +150,7 @@ toml==0.10.2
     #   pytest-cov
 tomlkit==0.7.2
     # via commitizen
-urllib3==1.26.5
+urllib3==1.26.6
     # via requests
 virtualenv==20.4.2
     # via pre-commit
