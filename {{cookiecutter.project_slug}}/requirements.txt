@@ -112,7 +112,7 @@ pytest-bandit==0.6.1
     # via -r {{cookiecutter.project_slug}}/requirements.in
 pytest-cov==2.12.1
     # via -r {{cookiecutter.project_slug}}/requirements.in
-python-dateutil==2.8.1
+python-dateutil==2.8.2
     # via faker
 pyxdg==0.27
     # via bpython
