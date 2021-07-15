@@ -10,7 +10,7 @@ appdirs==1.4.4
     #   virtualenv
 argcomplete==1.12.3
     # via commitizen
-arrow==0.13.2
+arrow==0.17.0
     # via jinja2-time
 attrs==20.3.0
     # via pytest
