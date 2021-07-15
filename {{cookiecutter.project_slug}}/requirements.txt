@@ -22,7 +22,7 @@ bpython==0.21
     # via -r {{cookiecutter.project_slug}}/requirements.in
 certifi==2020.12.5
     # via requests
-cfgv==3.2.0
+cfgv==3.3.0
     # via pre-commit
 chardet==4.0.0
     # via requests
