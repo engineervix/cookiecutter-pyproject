@@ -127,7 +127,7 @@ regex==2020.11.13
     # via black
 requests==2.26.0
     # via bpython
-six==1.15.0
+six==1.16.0
     # via
     #   bandit
     #   blessings
