@@ -154,7 +154,7 @@ requests==2.26.0
     # via
     #   bpython
     #   cookiecutter
-six==1.15.0
+six==1.16.0
     # via
     #   bandit
     #   blessings
