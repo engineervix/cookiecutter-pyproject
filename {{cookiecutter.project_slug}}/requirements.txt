@@ -125,7 +125,7 @@ questionary==1.10.0
     # via commitizen
 regex==2020.11.13
     # via black
-requests==2.25.1
+requests==2.26.0
     # via bpython
 six==1.15.0
     # via
