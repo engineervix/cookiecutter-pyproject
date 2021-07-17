@@ -27,7 +27,7 @@ repos:
               ^{{cookiecutter.project_slug}}/
           )
 -   repo: https://github.com/PyCQA/bandit
-    rev: 1.6.2
+    rev: 1.7.0
     hooks:
     - id: bandit
 - repo: https://github.com/commitizen-tools/commitizen
