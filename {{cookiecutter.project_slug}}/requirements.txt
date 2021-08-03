@@ -152,7 +152,7 @@ tomlkit==0.7.2
     # via commitizen
 urllib3==1.26.6
     # via requests
-virtualenv==20.6.0
+virtualenv==20.7.0
     # via pre-commit
 wcwidth==0.2.5
     # via prompt-toolkit
