@@ -122,7 +122,7 @@ pygments==2.9.0
     # via bpython
 pyparsing==2.4.7
     # via packaging
-pytest==5.4.3
+pytest==6.2.4
     # via
     #   pytest-bandit
     #   pytest-cookies
