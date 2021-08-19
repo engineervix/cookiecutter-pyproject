@@ -135,7 +135,7 @@ six==1.16.0
     #   virtualenv
 smmap==3.0.5
     # via gitdb
-stevedore==3.3.0
+stevedore==3.4.0
     # via bandit
 termcolor==1.1.0
     # via commitizen
