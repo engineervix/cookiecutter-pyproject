@@ -108,7 +108,7 @@ powerline-status==2.7
     # via -r requirements.in
 poyo==0.5.0
     # via cookiecutter
-pre-commit==2.14.0
+pre-commit==2.14.1
     # via -r requirements.in
 prompt-toolkit==3.0.20
     # via questionary
