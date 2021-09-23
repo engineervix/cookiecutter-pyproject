@@ -84,7 +84,7 @@ pbr==5.6.0
     # via stevedore
 pep517==0.11.0
     # via pip-tools
-pip-tools==6.2.0
+pip-tools==6.3.0
     # via -r {{cookiecutter.project_slug}}/requirements.in
 pluggy==0.13.1
     # via pytest
