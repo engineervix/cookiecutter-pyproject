@@ -36,7 +36,7 @@ commitizen==2.18.1
     # via -r {{cookiecutter.project_slug}}/requirements.in
 coverage==5.5
     # via pytest-cov
-curtsies==0.3.6
+curtsies==0.3.7
     # via bpython
 cwcwidth==0.1.4
     # via
