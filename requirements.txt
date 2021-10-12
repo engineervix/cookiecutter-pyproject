@@ -161,7 +161,7 @@ six==1.16.0
     #   cookiecutter
     #   python-dateutil
     #   virtualenv
-smmap==3.0.5
+smmap==4.0.0
     # via gitdb
 stevedore==3.4.0
     # via bandit
