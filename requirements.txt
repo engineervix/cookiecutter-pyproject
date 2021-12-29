@@ -12,7 +12,7 @@ argcomplete==1.12.3
     # via commitizen
 arrow==0.17.0
     # via jinja2-time
-attrs==20.3.0
+attrs==21.4.0
     # via pytest
 bandit==1.7.1
     # via pytest-bandit
