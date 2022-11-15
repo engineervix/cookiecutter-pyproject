@@ -54,7 +54,7 @@ flake8==3.9.2
     # via -r {{cookiecutter.project_slug}}/requirements.in
 gitdb==4.0.7
     # via gitpython
-gitpython==3.1.24
+gitpython==3.1.27
     # via bandit
 greenlet==1.1.2
     # via bpython
@@ -162,3 +162,4 @@ wheel==0.37.0
 # The following packages are considered to be unsafe in a requirements file:
 # pip
 # setuptools
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
