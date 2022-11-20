@@ -1,7 +1,7 @@
 include:
   template: Dependency-Scanning.gitlab-ci.yml
 
-image: python:3.6-buster
+image: python:3.11-buster
 
 # This folder is cached between builds
 # http://docs.gitlab.com/ce/ci/yaml/README.html#cache
