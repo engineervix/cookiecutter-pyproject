@@ -34,7 +34,7 @@ colorama==0.4.4
     # via commitizen
 commitizen==2.20.0
     # via -r {{cookiecutter.project_slug}}/requirements.in
-coverage==5.5
+coverage==6.5.0
     # via pytest-cov
 curtsies==0.3.10
     # via bpython

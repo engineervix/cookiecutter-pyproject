@@ -45,7 +45,7 @@ cookiecutter==1.7.3
     # via
     #   -r requirements.in
     #   pytest-cookies
-coverage==5.5
+coverage==6.5.0
     # via pytest-cov
 curtsies==0.3.10
     # via bpython
