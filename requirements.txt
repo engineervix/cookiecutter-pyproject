@@ -187,9 +187,10 @@ wcwidth==0.2.5
     # via
     #   prompt-toolkit
     #   pytest
-wheel==0.37.0
+wheel==0.38.0
     # via pip-tools
 
 # The following packages are considered to be unsafe in a requirements file:
 # pip
 # setuptools
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
