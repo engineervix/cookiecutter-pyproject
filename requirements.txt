@@ -24,7 +24,7 @@ blessings==1.7
     # via curtsies
 bpython==0.21
     # via -r requirements.in
-certifi==2020.12.5
+certifi==2023.7.22
     # via requests
 cfgv==3.3.1
     # via pre-commit
