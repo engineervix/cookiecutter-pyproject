@@ -65,7 +65,7 @@ flake8==3.9.2
     # via -r requirements.in
 gitdb==4.0.7
     # via gitpython
-gitpython==3.1.24
+gitpython==3.1.33
     # via bandit
 greenlet==1.1.2
     # via bpython
