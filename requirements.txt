@@ -24,7 +24,7 @@ blessings==1.7
     # via curtsies
 bpython==0.21
     # via -r requirements.in
-certifi==2020.12.5
+certifi==2023.7.22
     # via requests
 cfgv==3.3.1
     # via pre-commit
@@ -41,7 +41,7 @@ colorama==0.4.4
     # via commitizen
 commitizen==2.20.0
     # via -r requirements.in
-cookiecutter==1.7.3
+cookiecutter==2.1.1
     # via
     #   -r requirements.in
     #   pytest-cookies
@@ -65,7 +65,7 @@ flake8==3.9.2
     # via -r requirements.in
 gitdb==4.0.7
     # via gitpython
-gitpython==3.1.24
+gitpython==3.1.35
     # via bandit
 greenlet==1.1.2
     # via bpython
@@ -118,7 +118,7 @@ pycodestyle==2.8.0
     # via flake8
 pyflakes==2.4.0
     # via flake8
-pygments==2.10.0
+pygments==2.15.0
     # via bpython
 pyparsing==2.4.7
     # via packaging
@@ -150,7 +150,7 @@ questionary==1.10.0
     # via commitizen
 regex==2020.11.13
     # via black
-requests==2.26.0
+requests==2.31.0
     # via
     #   bpython
     #   cookiecutter
@@ -179,7 +179,7 @@ toml==0.10.2
     #   pytest-cov
 tomlkit==0.7.2
     # via commitizen
-urllib3==1.26.7
+urllib3==1.26.18
     # via requests
 virtualenv==20.8.1
     # via pre-commit
@@ -187,9 +187,10 @@ wcwidth==0.2.5
     # via
     #   prompt-toolkit
     #   pytest
-wheel==0.37.0
+wheel==0.38.0
     # via pip-tools
 
 # The following packages are considered to be unsafe in a requirements file:
 # pip
 # setuptools
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
