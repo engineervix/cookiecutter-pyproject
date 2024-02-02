@@ -80,7 +80,7 @@ jinja2==2.11.3
     #   jinja2-time
 jinja2-time==0.2.0
     # via cookiecutter
-markupsafe==1.1.1
+markupsafe==2.1.5
     # via jinja2
 mccabe==0.6.1
     # via flake8

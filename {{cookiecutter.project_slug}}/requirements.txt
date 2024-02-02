@@ -66,7 +66,7 @@ iniconfig==1.1.1
     # via pytest
 jinja2==2.11.3
     # via commitizen
-markupsafe==1.1.1
+markupsafe==2.1.5
     # via jinja2
 mccabe==0.6.1
     # via flake8
