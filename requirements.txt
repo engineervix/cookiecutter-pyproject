@@ -69,7 +69,7 @@ gitpython==3.1.24
     # via bandit
 greenlet==1.1.2
     # via bpython
-identify==1.6.2
+identify==2.5.35
     # via pre-commit
 idna==2.10
     # via requests
