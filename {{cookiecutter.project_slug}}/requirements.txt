@@ -12,15 +12,15 @@ argcomplete==1.12.3
     # via commitizen
 attrs==20.3.0
     # via pytest
-bandit==1.7.1
+bandit==1.7.7
     # via pytest-bandit
-black==21.6b0
+black==24.3.0
     # via -r {{cookiecutter.project_slug}}/requirements.in
 blessings==1.7
     # via curtsies
 bpython==0.21
     # via -r {{cookiecutter.project_slug}}/requirements.in
-certifi==2020.12.5
+certifi==2023.7.22
     # via requests
 cfgv==3.3.1
     # via pre-commit
@@ -54,17 +54,17 @@ flake8==3.9.2
     # via -r {{cookiecutter.project_slug}}/requirements.in
 gitdb==4.0.7
     # via gitpython
-gitpython==3.1.24
+gitpython==3.1.41
     # via bandit
 greenlet==1.1.2
     # via bpython
 identify==1.6.2
     # via pre-commit
-idna==2.10
+idna==3.7
     # via requests
 iniconfig==1.1.1
     # via pytest
-jinja2==2.11.3
+jinja2==3.1.4
     # via commitizen
 markupsafe==1.1.1
     # via jinja2
@@ -100,7 +100,7 @@ pycodestyle==2.8.0
     # via flake8
 pyflakes==2.4.0
     # via flake8
-pygments==2.10.0
+pygments==2.15.0
     # via bpython
 pyparsing==2.4.7
     # via packaging
@@ -125,7 +125,7 @@ questionary==1.10.0
     # via commitizen
 regex==2020.11.13
     # via black
-requests==2.26.0
+requests==2.32.2
     # via bpython
 six==1.16.0
     # via
@@ -150,15 +150,16 @@ toml==0.10.2
     #   pytest-cov
 tomlkit==0.7.2
     # via commitizen
-urllib3==1.26.7
+urllib3==1.26.19
     # via requests
 virtualenv==20.8.1
     # via pre-commit
 wcwidth==0.2.5
     # via prompt-toolkit
-wheel==0.37.0
+wheel==0.38.0
     # via pip-tools
 
 # The following packages are considered to be unsafe in a requirements file:
 # pip
 # setuptools
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
