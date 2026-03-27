@@ -30,7 +30,7 @@ click==7.1.2
     # via
     #   black
     #   pip-tools
-colorama==0.4.4
+colorama==0.4.6
     # via commitizen
 commitizen==2.20.0
     # via -r {{cookiecutter.project_slug}}/requirements.in
