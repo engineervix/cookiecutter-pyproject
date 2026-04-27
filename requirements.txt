@@ -41,7 +41,7 @@ colorama==0.4.4
     # via commitizen
 commitizen==2.20.0
     # via -r requirements.in
-cookiecutter==1.7.3
+cookiecutter==2.1.1
     # via
     #   -r requirements.in
     #   pytest-cookies
